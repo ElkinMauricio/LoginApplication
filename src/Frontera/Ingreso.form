@@ -27,7 +27,7 @@
                       </Group>
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="nombreTf" pref="98" max="32767" attributes="0"/>
+                          <Component id="nombreTF" pref="98" max="32767" attributes="0"/>
                           <Component id="contraseñaTF" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -41,7 +41,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="nombreTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nombreTF" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel1" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
@@ -67,7 +67,7 @@
         <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="nombreTf">
+    <Component class="javax.swing.JTextField" name="nombreTF">
     </Component>
     <Component class="javax.swing.JTextField" name="contrase&#xf1;aTF">
     </Component>
