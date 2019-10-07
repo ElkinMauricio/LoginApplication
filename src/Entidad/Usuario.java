@@ -5,6 +5,15 @@ package Entidad;
 public class Usuario {
     private String nombre;
     private String password;
+    private String Valpassword;
+
+    public String getValpassword() {
+        return Valpassword;
+    }
+
+    public void setValpassword(String Valpassword) {
+        this.Valpassword = Valpassword;
+    }
     
     
     public Usuario(){
