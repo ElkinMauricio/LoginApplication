@@ -25,7 +25,7 @@ public class ValidarRegistro {
         if(!ValidarLongitudNombre(usuario.getNombre()))
             return ("longitud nombre incorrecto");
         if(!ValidarLogitudPassword(usuario.getPassword()))
-            return ("longitud contraseña incorrecto");
+            return ("longitud contraseña incorrecta");
        
         if(!usuario.getPassword().equals(usuario.getValpassword()))
            return ("contraseñas no coinciden");
@@ -46,7 +46,7 @@ public class ValidarRegistro {
         return (nombre.length()>1 && nombre.length()<=6);
     }
     public boolean ValidarLogitudPassword(String password){
-        return (password.length()>=3 && password.length()<=6);
+        return (password.length()>=3 && password.length()<6);
     }
     
 }
