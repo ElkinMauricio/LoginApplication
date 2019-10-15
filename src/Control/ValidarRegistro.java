@@ -21,7 +21,7 @@ public class ValidarRegistro {
     public ValidarRegistro(){
         
     }
-    public String verificarRegistro(Usuario usuario){
+    public String verificarRegistro(Usuario usuario ){
         if(!ValidarLongitudNombre(usuario.getNombre()))
             return ("longitud nombre incorrecto");
         if(!ValidarLogitudPassword(usuario.getPassword()))

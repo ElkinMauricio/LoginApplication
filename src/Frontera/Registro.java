@@ -93,7 +93,7 @@ public class Registro extends javax.swing.JPanel {
 
         ValidarRegistro validar=new ValidarRegistro();
         System.out.println("------------");
-        String resultado=validar.verificarRegistro(usuario);
+        String resultado =  validar.verificarRegistro(usuario);
 
         System.out.println(resultado);
 
