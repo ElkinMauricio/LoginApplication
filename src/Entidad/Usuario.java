@@ -14,7 +14,7 @@ import javax.persistence.Table;
 public class Usuario implements Serializable {
     private String nombre;
     private String password;
-    private String Valpassword;
+    
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,13 +30,13 @@ public class Usuario implements Serializable {
     
     
     
-    public String getValpassword() {
+   /* public String getValpassword() {
         return Valpassword;
     }
 
     public void setValpassword(String Valpassword) {
         this.Valpassword = Valpassword;
-    }
+    }*/
     
     
     public Usuario(){

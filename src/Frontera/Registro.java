@@ -89,11 +89,11 @@ public class Registro extends javax.swing.JPanel {
         Usuario usuario=new Usuario();
         usuario.setNombre(nombreTF.getText());
         usuario.setPassword(contraseñaTF.getText());
-        usuario.setValpassword(validarContraseñaTF.getText());
+        String validarContraseña = validarContraseñaTF.getText();
 
         ValidarRegistro validar=new ValidarRegistro();
         System.out.println("------------");
-        String resultado =  validar.verificarRegistro(usuario);
+        String resultado =  validar.verificarRegistro(usuario , validarContraseña);
 
         System.out.println(resultado);
 
